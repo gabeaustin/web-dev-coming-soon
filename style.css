@@ -1,0 +1,61 @@
+/***** Brand Colors *****/ 
+/* 
+- Aquamarine
+#3b707d
+
+- Orange
+#ffb85d
+
+- Red Orange
+#ff5412
+
+- Grey
+#818582
+
+- Black
+#030a04
+*/
+
+* {
+  background-color: var(--black);
+}
+
+:root {
+  --font-one: "Montserrat", sans-serif;
+  --font-two: "Nunito", sans-serif;
+  --aqua: #3B707d;
+  --orange: #ffb85d;
+  --red-orange: #ff5412;
+  --grey: #818582;
+  --black: #030a04;
+}
+
+
+/* div.count-numbers>* {
+  font-family: "Alfa Slab One", cursive;
+} */
+
+.top-heading-text {
+  /* color: #4D6772; */
+  color: var(--grey);
+}
+
+footer,
+.header-nav-text,
+.count-words,
+.main-heading,
+.sub-heading {
+  font-family: var(--font-one);
+}
+
+div.main-heading > div {
+  font-weight: 900;
+  text-align: left;
+}
+
+/* start Typing Effect CSS */
+span.auto-type,
+.typed-cursor {
+  color: #FFB85D;
+}
+/* end - Typing Effect CSS */
