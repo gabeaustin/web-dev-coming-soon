@@ -44,7 +44,9 @@ div.count-numbers > * {
 }
 
 .count-words {
-  font-size: 1.25rem;
+  font-weight: 400 !important;
+  font-size: 1.25rem !important;
+  /* transform: rotate(90deg); */
 }
 
 div.main-heading > div {
